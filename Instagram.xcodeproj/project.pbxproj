@@ -38,6 +38,9 @@
 		CA793D621E3833BF0055E81E /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA793D611E3833BF0055E81E /* ImageSelectViewController.swift */; };
 		CA793D641E3833D20055E81E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA793D631E3833D20055E81E /* PostViewController.swift */; };
 		CA793D661E3833E70055E81E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA793D651E3833E70055E81E /* SettingViewController.swift */; };
+		CA845C3F1E3AEA1200380DF4 /* CommentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA845C3E1E3AEA1200380DF4 /* CommentData.swift */; };
+		CA845C411E3B176D00380DF4 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA845C401E3B176D00380DF4 /* ModalViewController.swift */; };
+		CA9A31C21E39CA7E003640C5 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A31C11E39CA7E003640C5 /* CommentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +91,9 @@
 		CA793D611E3833BF0055E81E /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		CA793D631E3833D20055E81E /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		CA793D651E3833E70055E81E /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CA845C3E1E3AEA1200380DF4 /* CommentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentData.swift; sourceTree = "<group>"; };
+		CA845C401E3B176D00380DF4 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		CA9A31C11E39CA7E003640C5 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		CD4206E687FC76E98BEA872E /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		D11949EC6B8DA63984C93CC9 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +165,9 @@
 				CA13F43A1E38876500B7923F /* PostData.swift */,
 				CA793D611E3833BF0055E81E /* ImageSelectViewController.swift */,
 				CA793D631E3833D20055E81E /* PostViewController.swift */,
+				CA9A31C11E39CA7E003640C5 /* CommentViewController.swift */,
+				CA845C401E3B176D00380DF4 /* ModalViewController.swift */,
+				CA845C3E1E3AEA1200380DF4 /* CommentData.swift */,
 				CA13F43E1E38880200B7923F /* PostTableViewCell.swift */,
 				CA13F43F1E38880200B7923F /* PostTableViewCell.xib */,
 				CA793D651E3833E70055E81E /* SettingViewController.swift */,
@@ -331,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA793D641E3833D20055E81E /* PostViewController.swift in Sources */,
+				CA845C3F1E3AEA1200380DF4 /* CommentData.swift in Sources */,
 				CA13F43B1E38876500B7923F /* PostData.swift in Sources */,
 				CA793D5E1E3833760055E81E /* LoginViewController.swift in Sources */,
 				CA793D4E1E3833050055E81E /* ViewController.swift in Sources */,
@@ -338,8 +348,10 @@
 				CA793D621E3833BF0055E81E /* ImageSelectViewController.swift in Sources */,
 				CA13F4391E38818400B7923F /* Const.swift in Sources */,
 				CA13F4401E38880200B7923F /* PostTableViewCell.swift in Sources */,
+				CA845C411E3B176D00380DF4 /* ModalViewController.swift in Sources */,
 				CA793D661E3833E70055E81E /* SettingViewController.swift in Sources */,
 				CA793D601E3833AC0055E81E /* HomeViewController.swift in Sources */,
+				CA9A31C21E39CA7E003640C5 /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
